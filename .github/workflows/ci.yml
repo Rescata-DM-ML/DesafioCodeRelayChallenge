@@ -37,10 +37,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # TODO 4: El paso original 'Run tests' (npm test) que se encontraba aquí ha sido eliminado.
-      # Esto se debe a que las instrucciones explícitas del enunciado de este desafío indican que
-      # el pipeline debe 'construir el frontend, levantar Postgres como servicio y SIN correr las pruebas'.
-
       # TODO 5: construir el proyecto para producción
       - name: Build
         run: npm run build
